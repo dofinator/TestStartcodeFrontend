@@ -6,8 +6,8 @@ function Starwars() {
     planetName: "",
     speciesName: "",
     starshipName: "",
-    vehicleName: ""
-
+    vehicleName: "",
+    peoples: ""
   }
 
   const [dataFromServer, setDataFromServer] = useState(obj);
@@ -23,6 +23,7 @@ function Starwars() {
       <p>species: {dataFromServer.speciesName}</p>
       <p>starship: {dataFromServer.starshipName}</p>
       <p>vehicle: {dataFromServer.vehicleName}</p>
+      <p>vehicle: {dataFromServer.peoples}</p>
     </div>
   );
 }
